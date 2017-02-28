@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SignalView">
+        <attr name="line_count" format="integer"/>
+        <attr name="progress_color" format="color"/>
+        <attr name="primary_color" format="color"/>
+        <attr name="stroke_width" format="integer"/>
+        <attr name="corner_radius" format="float"/>
+        <attr name="signal_spacing" format="integer"/>
+        <attr name="progress" format="integer"/>
+
+    </declare-styleable>
+</resources>
