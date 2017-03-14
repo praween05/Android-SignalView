@@ -1,6 +1,6 @@
 # SignalView for android
 
-Use to display signal strength. You can changesome of the properties of SignalView
+Use to display signal strength. You can change some of the properties of SignalView
 
     1. Line Count
     2. Primary Color
