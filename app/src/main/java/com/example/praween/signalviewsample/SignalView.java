@@ -64,7 +64,7 @@ public class SignalView extends View {
         mProgress = typedArray.getInt(R.styleable.SignalView_progress, mProgress);
         mStroke = typedArray.getInt(R.styleable.SignalView_stroke_width, mStroke);
         mRadius = typedArray.getFloat(R.styleable.SignalView_corner_radius, mRadius);;
-        mSpacing = typedArray.getInt(R.styleable.SignalView_signal_spacing, mSpacing);;
+        mSpacing = typedArray.getInt(R.styleable.SignalView_line_spacing, mSpacing);;
     }
 
     @SuppressWarnings("ResourceAsColor")
