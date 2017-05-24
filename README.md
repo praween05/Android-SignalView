@@ -1,6 +1,7 @@
 # SignalView for android
 
-![Screenshot](screenshot.png)
+![alt text](https://github.com/praween05/Android-SignalView/blob/master/Screenshot.png)
+
 
 This is a custom view use to display signal strength. You can change some of the properties of SignalView
 
