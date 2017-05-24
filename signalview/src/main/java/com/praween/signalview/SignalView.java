@@ -1,4 +1,4 @@
-package com.example.praween.signalviewsample;
+package com.praween.signalview;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -63,8 +63,8 @@ public class SignalView extends View {
         mProgressColor = typedArray.getInt(R.styleable.SignalView_progress_color, ContextCompat.getColor(mContext, mProgressColor));
         mProgress = typedArray.getInt(R.styleable.SignalView_progress, mProgress);
         mStroke = typedArray.getInt(R.styleable.SignalView_stroke_width, mStroke);
-        mRadius = typedArray.getFloat(R.styleable.SignalView_corner_radius, mRadius);;
-        mSpacing = typedArray.getInt(R.styleable.SignalView_line_spacing, mSpacing);;
+        mRadius = typedArray.getFloat(R.styleable.SignalView_corner_radius, mRadius);
+        mSpacing = typedArray.getInt(R.styleable.SignalView_line_spacing, mSpacing);
     }
 
     @SuppressWarnings("ResourceAsColor")

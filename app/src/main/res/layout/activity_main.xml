@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
-
-
-    <com.example.praween.signalviewsample.SignalView
+    <com.praween.signalview.SignalView
         android:id="@+id/sv_signal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,6 +14,6 @@
         app:progress_color="@color/colorAccent"
         app:primary_color="@color/colorBlack"
         app:corner_radius="20"
-        app:signal_spacing="10"
+        app:line_spacing="10"
         android:layout_margin="10dp"/>
 </RelativeLayout>
